@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#he says I shoudl really do these so http status code and visitor id
+
+awk '{print $1,$9}' apache-access.log
