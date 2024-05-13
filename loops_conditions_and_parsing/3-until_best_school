@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #until best school
 
-counter=0
-until [ $counter = 10 ]
+i=1
+until [ "$i" -gt 10 ]
 do
-	echo "Best School"
+        echo "Best School"
+        i=$((i + 1))
 done
