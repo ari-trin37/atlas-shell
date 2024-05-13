@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#best school x10
+
+for _ in {1..10}
+do
+    echo "Best School"
+done
